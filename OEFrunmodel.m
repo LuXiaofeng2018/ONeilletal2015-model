@@ -69,9 +69,9 @@ while iind < 2 % increase according to how many sims you want to run serially
 %filename = strcat('N3_id428but_tst',num2str(tstf),...
 %           '_tstp',num2str(tstpf),'_dx',num2str(dx),'.mat');
 
-N3params
-N3modes
-N3difeqs
+OEF_params
+OEF_modes
+OEF_difeqs
 
 % activate below to save simulation output
 %save(filename)                     
